@@ -1,0 +1,146 @@
+body {
+    background-image: radial-gradient(circle at 90% 24%, rgba(209, 209, 209, 0.04) 0%, rgba(209, 209, 209, 0.04) 50%, rgba(160, 160, 160, 0.04) 50%, rgba(160, 160, 160, 0.04) 100%), radial-gradient(circle at 91% 63%, rgba(45, 45, 45, 0.04) 0%, rgba(45, 45, 45, 0.04) 50%, rgba(87, 87, 87, 0.04) 50%, rgba(87, 87, 87, 0.04) 100%), radial-gradient(circle at 17% 2%, rgba(124, 124, 124, 0.04) 0%, rgba(124, 124, 124, 0.04) 50%, rgba(117, 117, 117, 0.04) 50%, rgba(117, 117, 117, 0.04) 100%), linear-gradient(88deg, rgb(33, 20, 105), rgb(1, 15, 13));
+    ;
+}
+
+#title {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+
+
+.image_container {
+    display: flex;
+    justify-content: right;
+    margin-top: 2rem;
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.video_container {
+    display: grid;
+    justify-content: center;
+}
+
+.ingredients_p {
+    color: white;
+    margin-left: -5rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+.search_container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.searchBox {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #2f3640;
+    border-radius: 50px;
+    position: relative;
+}
+
+.searchButton {
+    color: white;
+    position: absolute;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+/*hover effect*/
+button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-3px);
+}
+
+/*button pressing effect*/
+button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+}
+
+
+
+
+.search_container {
+    display: grid;
+    justify-content: center;
+}
+
+#image {
+    width: 400px;
+    height: 400px;
+
+}
+
+.items_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#ingredients_list {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+#ingredients_p {
+    display: none;
+}
+
+.image_video {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.image_video_container {
+    display: flex;
+    padding-top: 5rem;
+}
+
+
+.ingredients_product_partition {
+    border: 1px solid red;
+}
+
+
+#ingredients_product_partition {
+    display: none;
+}
